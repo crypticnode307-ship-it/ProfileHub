@@ -1,0 +1,58 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <nav>
+        <h2>TestApp</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Create Account</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome, <span id="username">User</span>!</h1>
+            <p>This is your home page.</p>
+        </section>
+
+        <section class="user-card">
+            <h2>User Details</h2>
+
+            <div class="detail">
+                <strong>Username:</strong>
+                <span id="user-username">Loading...</span>
+            </div>
+
+            <div class="detail">
+                <strong>Email:</strong>
+                <span id="user-email">Loading...</span>
+            </div>
+
+            <div class="detail">
+                <strong>User ID:</strong>
+                <span id="user-id">Loading...</span>
+            </div>
+
+            <div class="detail">
+                <strong>Role:</strong>
+                <span id="user-role">Loading...</span>
+            </div>
+        </section>
+
+        <button id="logout">Logout</button>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+```
